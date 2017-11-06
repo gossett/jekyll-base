@@ -1,0 +1,3 @@
+DNS is very technical but easy to use once you know how. It's simply a name to IP correlation. Humans cant remember 107.154.102.58 but they can remember WWW.gamestop.com !
+Two challenges would be the cname: the cname is a hostname to hostname alias that doesn't use the IP address.
+A second challenge is that even though DNS is dynamic you can get stale host records that point to older FQDNS, which may point to wrong information and not redirect correctly.
